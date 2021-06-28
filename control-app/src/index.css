@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html{
+  background-color: black;
 }
+.dashboard{
+  position: absolute;
+  width: 100%;
+  height: 15vh;
+  left: 0px;
+  top: 0px;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  background: #C4C4C4;
+
+}
+.dashboardText{  
+  position: absolute;
+  width: 1109px;
+  height: 115px;
+  left: 205px;
+  top: 10px;
+  
+  font-family: Times New Roman;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 115px;
+  /* identical to box height */
+  color: black;
+  
+  text-align: center;
+}
+button{
+  position: absolute;
+  width: 475px;
+  height: 130px;
+  font-family: Times New Roman;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 115px;
+/* identical to box height */
+
+text-align: center;
+
+  background: #008000;
+}
+.bntTodo{
+  left: 90px;
+  top: 400px;
+}
+.bntNav{
+  left: 930px;
+  top: 400px;
+}
+.btnClock{
+  left: 510px;
+  top: 600px;
 }
