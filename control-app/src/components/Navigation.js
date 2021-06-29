@@ -16,13 +16,15 @@ const Navigation = () => {
     }
 
     return (  
-        <div>
-            <button className="bntTodo" onClick={handleSubmitHome}>Lock</button>
+        <>
     
-            <button className="bntNav" onClick={handleSubmitOne}>One</button>
+            <button className="buttonz bntNav" onClick={handleSubmitOne}>One</button>
 
-            <button className="btnClock" onClick={handleSubmitTwo}>Two</button>
-        </div>
+            <button className="buttonz btnClock" onClick={handleSubmitTwo}>Two</button>
+
+            <button className="buttonz bntTodo" onClick={handleSubmitHome}>Lock</button>
+
+        </>
     );
 }
  

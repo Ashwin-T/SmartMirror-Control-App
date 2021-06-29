@@ -2,19 +2,14 @@ import { Link } from "react-router-dom";
 
 const Dashboard= () => {
     return ( 
-        <div>
-        <Link to = '/todo'>
-            <button className="bntTodo">ToDo</button>
-        </Link>
-        <Link to = '/nav'>
-            <button className="bntNav">Navigation</button>
-        </Link>
-        <Link to = '/alarm'>
-            <button className="btnClock">Alarm</button>
-        </Link>
-
-
-        </div>
+        <>
+            <Link to = '/todo'>
+                <button className="buttonz bntTodo">ToDo</button>
+            </Link>
+            <Link to = '/nav'>
+                <button className="buttonz bntNav">Navigation</button>
+            </Link>
+        </>
      );
 }
  
