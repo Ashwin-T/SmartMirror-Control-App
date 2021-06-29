@@ -14,6 +14,9 @@ const Navigation = () => {
     const handleSubmitTwo = (e) => {
         db.collection('Page').doc('PageNum').set({Page: 2}).then(alert("Switching to Main Screen Two"));
     }
+    // const handleRefresh = (e) => {
+    //     window.location.reload.then();
+    // }
 
     return (  
         <>
@@ -23,6 +26,8 @@ const Navigation = () => {
             <button className="buttonz btnClock" onClick={handleSubmitTwo}>Two</button>
 
             <button className="buttonz bntTodo" onClick={handleSubmitHome}>Lock</button>
+
+            <button className="buttonz" >Refresh</button>
 
         </>
     );

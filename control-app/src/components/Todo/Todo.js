@@ -3,7 +3,7 @@ import AddTodos from './addTodos';
 const TodoList = () => {
     return ( 
         <div className = 'todoList'>
-            <div className="todoLabel">Todo List</div>
+            <div className="todoLabel">To Do List</div>
             <ShowToDo/> 
             <AddTodos/>
         </div>
