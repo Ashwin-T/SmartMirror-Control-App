@@ -17,17 +17,20 @@ const Navigation = () => {
     // const handleRefresh = (e) => {
     //     window.location.reload.then();
     // }
+    const handleClear = (e) => {
+        db.collection('Page').doc('PageNum').set({Page: 3}).then(alert("Switching to Clear Screen"));
+    } 
 
     return (  
         <>
     
-            <button className="buttonz bntNav" onClick={handleSubmitOne}>One</button>
+            <button className="buttonz" onClick={handleSubmitOne}>One</button>
 
-            <button className="buttonz btnClock" onClick={handleSubmitTwo}>Two</button>
+            <button className="buttonz" onClick={handleSubmitTwo}>Two</button>
 
-            <button className="buttonz bntTodo" onClick={handleSubmitHome}>Lock</button>
+            <button className="buttonz" onClick={handleSubmitHome}>Lock</button>
 
-            <button className="buttonz" >Refresh</button>
+            <button className="buttonz" onClick={handleClear}>Clear</button>
 
         </>
     );
