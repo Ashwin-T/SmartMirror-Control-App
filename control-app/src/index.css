@@ -42,7 +42,6 @@ body{
   font-weight: normal;
   font-size: 100px;
   line-height: 115px;
-  /* identical to box height */
   color: black;
   
   text-align: center;
@@ -55,9 +54,7 @@ body{
   font-weight: normal;
   font-size: 100px;
   line-height: 115px;
-  margin: 15px; /*mess aorund
-/* identical to box height */
-
+  margin: 15px; 
   text-align: center;
   background: #008000;
 }
@@ -84,9 +81,6 @@ body{
 .todoLabel{
   width: 100%;
   height: 80px;
-  /* left: 685px;
-  top: 440px; */
-  
   font-family: Times New Roman;
   font-style: normal;
   font-weight: normal;
@@ -99,9 +93,6 @@ body{
 }
 .todoText{
   width: 500px;
-  /* left: 615px;
-  top: 550px; */
-
   font-family: Times New Roman;
   font-style: normal;
   font-weight: normal;
@@ -137,5 +128,4 @@ body{
   position:relative;
   padding-bottom: 10px;
   top: -2px;
-  /* margin: 10px; */
 }
